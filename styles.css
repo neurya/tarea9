@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9e9e9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    margin: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    background-color: #f1f1f1;
+}
+
+.menu li {
+    padding: 10px 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #ddd;
+}
+
+p {
+    padding: 0 20px;
+    font-size: 16px;
+}
+/* Añade al archivo styles.css */
+
+.libro {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    text-align: center;
+}
+
+.libro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.libro h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
